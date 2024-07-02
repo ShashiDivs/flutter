@@ -8,8 +8,8 @@ import 'package:flutter/material.dart';
 
 // Occupies the same width as the widest single digit used by AnimatedDigit.
 //
-// By stacking this widget behind AnimatedDigit's visible digit, we
-// ensure that AnimatedWidget's width will not change when its value
+// By stacking this widget behind AnimatedDigit's visible digit
+// we ensure that AnimatedWidget's width will not change when its value
 // changes.  Typically digits like '8' or '9' are wider than '1'.  If
 // an app arranges several AnimatedDigits in a centered Row, we don't
 // want the Row to wiggle when the digits change because the overall
